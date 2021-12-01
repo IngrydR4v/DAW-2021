@@ -1,0 +1,41 @@
+.newsletter{
+    background-color: #f7f9fa;
+    margin: 32px 0;
+    padding: 32px 0;
+}
+
+.newsletter .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.newsletter h2{
+    color: #DE6564;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.newsletter form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.newsletter form input{
+    width: 400px;
+    font-size: 16px;
+}
+
+.newsletter form button{
+    background-color: #DE6564;
+    border-color: #DE6564;
+    text-transform: uppercase;
+}
+
+.newsletter form button:hover{
+    background-color: #e24d4d;
+    border-color: #b15050;
+}

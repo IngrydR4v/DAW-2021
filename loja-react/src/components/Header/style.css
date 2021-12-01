@@ -1,0 +1,18 @@
+header{
+    background-color: #FFF;
+
+}
+
+/* Para deixar o menu maiúsculo 
+
+header nav li{
+    text-transform: uppercase ;
+} */
+
+header .navbar-brand, header nav li a.active, header nav li a:hover{
+    color: #DE6564 !important;
+}
+
+header nav li{
+    text-transform: uppercase;
+}

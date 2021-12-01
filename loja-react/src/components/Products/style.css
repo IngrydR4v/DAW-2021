@@ -1,0 +1,23 @@
+.products .card-body .details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /*alinha horizontalmente, align-itens para vertical */
+    margin-top: 32px;
+}
+
+.products .details .price {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.products .details .star-rating{
+    color:goldenrod;
+}
+.products .details .price h3{
+    color: #DE6564;
+}
+
+.products .details .price p{
+    font-size: 12px;
+}
